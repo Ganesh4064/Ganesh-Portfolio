@@ -138,6 +138,10 @@ a {
 
 .hero-content {
   max-width: 700px;
+
+  /* Keep text on the LEFT on desktop */
+  grid-column: 1;
+  grid-row: 1;
 }
 
 /* SMALL INTRO */
@@ -389,6 +393,10 @@ a {
   justify-content: center;
 
   align-items: center;
+
+  /* Keep code card on the RIGHT on desktop */
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .code-card {
@@ -1293,10 +1301,18 @@ footer {
 
   .hero-content {
     max-width: 800px;
+
+    /* Stack text first */
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .hero-code {
     justify-content: flex-start;
+
+    /* Stack code below text */
+    grid-column: 1;
+    grid-row: 2;
   }
 
   .code-card {
@@ -3049,4 +3065,3 @@ footer {
   }
 
 }
-
