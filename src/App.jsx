@@ -36,6 +36,7 @@ function App() {
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#coding-profiles">Profiles</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
@@ -62,7 +63,7 @@ function App() {
 
           <h1>
             <span className="initial">N</span>{" "}
-            <span className="name">Ganesh</span>
+            <span className="name">GANESH</span>
           </h1>
 
           <h2>
@@ -86,13 +87,13 @@ function App() {
               View My Projects
             </a>
 
-           <a
-             href="/Ganesh__N_Resume.pdf"
-             className="btn btn-outline"
-             download="Ganesh_N_Resume.pdf"
-           >
-             Download Resume
-           </a>
+            <a
+              href="/Ganesh__N_Resume.pdf"
+              className="btn btn-outline"
+              download="Ganesh_N_Resume.pdf"
+            >
+              Download Resume
+            </a>
 
           </div>
 
@@ -332,7 +333,6 @@ function App() {
 
         <div className="skill-categories">
 
-
           <div className="skill-category">
 
             <span className="category-number">
@@ -405,6 +405,188 @@ function App() {
       </section>
 
 
+     {/* ================= CODING PROFILES ================= */}
+
+     <section
+       id="coding-profiles"
+       className="section coding-profiles-section"
+     >
+
+       <div className="section-heading">
+
+         <p className="section-label">
+           CODING PROFILES
+         </p>
+
+         <h2>
+           Code. Practice. Improve.
+         </h2>
+
+       </div>
+
+
+       <div className="coding-profiles-grid">
+
+
+         {/* GitHub */}
+
+         <a
+           href="https://github.com/Ganesh4064"
+           target="_blank"
+           rel="noreferrer"
+           className="coding-profile-card"
+         >
+
+           <div className="profile-number">
+             01
+           </div>
+
+           <div className="profile-icon">
+             <img
+               src="https://cdn.simpleicons.org/github/ffffff"
+               alt="GitHub"
+             />
+           </div>
+
+           <div className="profile-content">
+
+             <h3>
+               GitHub
+             </h3>
+
+             <p>
+               Projects, source code and development work.
+             </p>
+
+             <span>
+               View Profile →
+             </span>
+
+           </div>
+
+         </a>
+
+
+         {/* LeetCode */}
+
+         <a
+           href="https://leetcode.com/u/Ganesh_lucky/"
+           target="_blank"
+           rel="noreferrer"
+           className="coding-profile-card"
+         >
+
+           <div className="profile-number">
+             02
+           </div>
+
+           <div className="profile-icon">
+             <img
+               src="https://cdn.simpleicons.org/leetcode/ffffff"
+               alt="LeetCode"
+             />
+           </div>
+
+           <div className="profile-content">
+
+             <h3>
+               LeetCode
+             </h3>
+
+             <p>
+               Data structures, algorithms and problem solving.
+             </p>
+
+             <span>
+               View Profile →
+             </span>
+
+           </div>
+
+         </a>
+
+
+         {/* GeeksforGeeks */}
+
+         <a
+           href="https://www.geeksforgeeks.org/profile/ganesh_n125"
+           target="_blank"
+           rel="noreferrer"
+           className="coding-profile-card"
+         >
+
+           <div className="profile-number">
+             03
+           </div>
+
+           <div className="profile-icon">
+             <img
+               src="https://cdn.simpleicons.org/geeksforgeeks/ffffff"
+               alt="GeeksforGeeks"
+             />
+           </div>
+
+           <div className="profile-content">
+
+             <h3>
+               GeeksforGeeks
+             </h3>
+
+             <p>
+               Programming practice, DSA and technical learning.
+             </p>
+
+             <span>
+               View Profile →
+             </span>
+
+           </div>
+
+         </a>
+
+
+         {/* HackerRank */}
+
+         <a
+           href="https://www.hackerrank.com/profile/nganeshlucky125"
+           target="_blank"
+           rel="noreferrer"
+           className="coding-profile-card"
+         >
+
+           <div className="profile-number">
+             04
+           </div>
+
+           <div className="profile-icon">
+             <img
+               src="https://cdn.simpleicons.org/hackerrank/ffffff"
+               alt="HackerRank"
+             />
+           </div>
+
+           <div className="profile-content">
+
+             <h3>
+               HackerRank
+             </h3>
+
+             <p>
+               Programming, SQL and technical problem solving.
+             </p>
+
+             <span>
+               View Profile →
+             </span>
+
+           </div>
+
+         </a>
+
+       </div>
+
+     </section>
+
       {/* ================= EXPERIENCE ================= */}
 
       <section
@@ -427,8 +609,6 @@ function App() {
 
         <div className="timeline">
 
-
-          {/* ================= CEERAS ================= */}
 
           <div className="timeline-item">
 
@@ -488,8 +668,6 @@ function App() {
 
           </div>
 
-
-          {/* ================= VRISHANKSOFT ================= */}
 
           <div className="timeline-item">
 
@@ -577,8 +755,6 @@ function App() {
         <div className="projects-grid">
 
 
-          {/* ================= PROJECT 1 ================= */}
-
           <article className="project-card featured">
 
             <div className="project-top">
@@ -610,17 +786,11 @@ function App() {
             <div className="project-features">
 
               <div>✓ CRUD operations</div>
-
               <div>✓ JWT authentication</div>
-
               <div>✓ Authorization</div>
-
               <div>✓ Refresh tokens</div>
-
               <div>✓ Input validation</div>
-
               <div>✓ Error handling</div>
-
               <div>✓ Swagger API testing</div>
 
             </div>
@@ -646,8 +816,6 @@ function App() {
 
           </article>
 
-
-          {/* ================= PROJECT 2 ================= */}
 
           <article className="project-card">
 
@@ -680,15 +848,10 @@ function App() {
             <div className="project-features">
 
               <div>✓ Patient management</div>
-
               <div>✓ Doctor management</div>
-
               <div>✓ Appointment management</div>
-
               <div>✓ REST APIs</div>
-
               <div>✓ CRUD operations</div>
-
               <div>✓ Relational database</div>
 
             </div>
@@ -739,7 +902,6 @@ function App() {
 
 
         <div className="education-grid">
-
 
           <div className="education-card">
 
@@ -821,7 +983,6 @@ function App() {
 
 
         <div className="certifications-grid">
-
 
           <div className="certification-card">
 
